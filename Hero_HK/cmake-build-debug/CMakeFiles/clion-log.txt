@@ -1,0 +1,4 @@
+/home/tcrnx/include/cmake-3.24.3-linux-aarch64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/usr/bin/make -DCMAKE_C_COMPILER=/usr/bin/gcc -DCMAKE_CXX_COMPILER=/usr/bin/g++ -G "CodeBlocks - Unix Makefiles" /home/tcrnx/Hero_HK
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/tcrnx/Hero_HK/cmake-build-debug
