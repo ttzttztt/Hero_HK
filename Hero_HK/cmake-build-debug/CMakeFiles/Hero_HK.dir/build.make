@@ -97,16 +97,96 @@ CMakeFiles/Hero_HK.dir/Thread/MyThread.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Hero_HK.dir/Thread/MyThread.cpp.s"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tcrnx/Hero_HK/Thread/MyThread.cpp -o CMakeFiles/Hero_HK.dir/Thread/MyThread.cpp.s
 
+CMakeFiles/Hero_HK.dir/Armor/ArmorDetect.cpp.o: CMakeFiles/Hero_HK.dir/flags.make
+CMakeFiles/Hero_HK.dir/Armor/ArmorDetect.cpp.o: /home/tcrnx/Hero_HK/Armor/ArmorDetect.cpp
+CMakeFiles/Hero_HK.dir/Armor/ArmorDetect.cpp.o: CMakeFiles/Hero_HK.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tcrnx/Hero_HK/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Hero_HK.dir/Armor/ArmorDetect.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Hero_HK.dir/Armor/ArmorDetect.cpp.o -MF CMakeFiles/Hero_HK.dir/Armor/ArmorDetect.cpp.o.d -o CMakeFiles/Hero_HK.dir/Armor/ArmorDetect.cpp.o -c /home/tcrnx/Hero_HK/Armor/ArmorDetect.cpp
+
+CMakeFiles/Hero_HK.dir/Armor/ArmorDetect.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Hero_HK.dir/Armor/ArmorDetect.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tcrnx/Hero_HK/Armor/ArmorDetect.cpp > CMakeFiles/Hero_HK.dir/Armor/ArmorDetect.cpp.i
+
+CMakeFiles/Hero_HK.dir/Armor/ArmorDetect.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Hero_HK.dir/Armor/ArmorDetect.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tcrnx/Hero_HK/Armor/ArmorDetect.cpp -o CMakeFiles/Hero_HK.dir/Armor/ArmorDetect.cpp.s
+
+CMakeFiles/Hero_HK.dir/Drawing.cpp.o: CMakeFiles/Hero_HK.dir/flags.make
+CMakeFiles/Hero_HK.dir/Drawing.cpp.o: /home/tcrnx/Hero_HK/Drawing.cpp
+CMakeFiles/Hero_HK.dir/Drawing.cpp.o: CMakeFiles/Hero_HK.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tcrnx/Hero_HK/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Hero_HK.dir/Drawing.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Hero_HK.dir/Drawing.cpp.o -MF CMakeFiles/Hero_HK.dir/Drawing.cpp.o.d -o CMakeFiles/Hero_HK.dir/Drawing.cpp.o -c /home/tcrnx/Hero_HK/Drawing.cpp
+
+CMakeFiles/Hero_HK.dir/Drawing.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Hero_HK.dir/Drawing.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tcrnx/Hero_HK/Drawing.cpp > CMakeFiles/Hero_HK.dir/Drawing.cpp.i
+
+CMakeFiles/Hero_HK.dir/Drawing.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Hero_HK.dir/Drawing.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tcrnx/Hero_HK/Drawing.cpp -o CMakeFiles/Hero_HK.dir/Drawing.cpp.s
+
+CMakeFiles/Hero_HK.dir/Armor/LightBar.cpp.o: CMakeFiles/Hero_HK.dir/flags.make
+CMakeFiles/Hero_HK.dir/Armor/LightBar.cpp.o: /home/tcrnx/Hero_HK/Armor/LightBar.cpp
+CMakeFiles/Hero_HK.dir/Armor/LightBar.cpp.o: CMakeFiles/Hero_HK.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tcrnx/Hero_HK/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Hero_HK.dir/Armor/LightBar.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Hero_HK.dir/Armor/LightBar.cpp.o -MF CMakeFiles/Hero_HK.dir/Armor/LightBar.cpp.o.d -o CMakeFiles/Hero_HK.dir/Armor/LightBar.cpp.o -c /home/tcrnx/Hero_HK/Armor/LightBar.cpp
+
+CMakeFiles/Hero_HK.dir/Armor/LightBar.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Hero_HK.dir/Armor/LightBar.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tcrnx/Hero_HK/Armor/LightBar.cpp > CMakeFiles/Hero_HK.dir/Armor/LightBar.cpp.i
+
+CMakeFiles/Hero_HK.dir/Armor/LightBar.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Hero_HK.dir/Armor/LightBar.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tcrnx/Hero_HK/Armor/LightBar.cpp -o CMakeFiles/Hero_HK.dir/Armor/LightBar.cpp.s
+
+CMakeFiles/Hero_HK.dir/Armor/ArmorBox.cpp.o: CMakeFiles/Hero_HK.dir/flags.make
+CMakeFiles/Hero_HK.dir/Armor/ArmorBox.cpp.o: /home/tcrnx/Hero_HK/Armor/ArmorBox.cpp
+CMakeFiles/Hero_HK.dir/Armor/ArmorBox.cpp.o: CMakeFiles/Hero_HK.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tcrnx/Hero_HK/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Hero_HK.dir/Armor/ArmorBox.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Hero_HK.dir/Armor/ArmorBox.cpp.o -MF CMakeFiles/Hero_HK.dir/Armor/ArmorBox.cpp.o.d -o CMakeFiles/Hero_HK.dir/Armor/ArmorBox.cpp.o -c /home/tcrnx/Hero_HK/Armor/ArmorBox.cpp
+
+CMakeFiles/Hero_HK.dir/Armor/ArmorBox.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Hero_HK.dir/Armor/ArmorBox.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tcrnx/Hero_HK/Armor/ArmorBox.cpp > CMakeFiles/Hero_HK.dir/Armor/ArmorBox.cpp.i
+
+CMakeFiles/Hero_HK.dir/Armor/ArmorBox.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Hero_HK.dir/Armor/ArmorBox.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tcrnx/Hero_HK/Armor/ArmorBox.cpp -o CMakeFiles/Hero_HK.dir/Armor/ArmorBox.cpp.s
+
+CMakeFiles/Hero_HK.dir/Armor/NumClassifier.cpp.o: CMakeFiles/Hero_HK.dir/flags.make
+CMakeFiles/Hero_HK.dir/Armor/NumClassifier.cpp.o: /home/tcrnx/Hero_HK/Armor/NumClassifier.cpp
+CMakeFiles/Hero_HK.dir/Armor/NumClassifier.cpp.o: CMakeFiles/Hero_HK.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tcrnx/Hero_HK/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Hero_HK.dir/Armor/NumClassifier.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Hero_HK.dir/Armor/NumClassifier.cpp.o -MF CMakeFiles/Hero_HK.dir/Armor/NumClassifier.cpp.o.d -o CMakeFiles/Hero_HK.dir/Armor/NumClassifier.cpp.o -c /home/tcrnx/Hero_HK/Armor/NumClassifier.cpp
+
+CMakeFiles/Hero_HK.dir/Armor/NumClassifier.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Hero_HK.dir/Armor/NumClassifier.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tcrnx/Hero_HK/Armor/NumClassifier.cpp > CMakeFiles/Hero_HK.dir/Armor/NumClassifier.cpp.i
+
+CMakeFiles/Hero_HK.dir/Armor/NumClassifier.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Hero_HK.dir/Armor/NumClassifier.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tcrnx/Hero_HK/Armor/NumClassifier.cpp -o CMakeFiles/Hero_HK.dir/Armor/NumClassifier.cpp.s
+
 # Object files for target Hero_HK
 Hero_HK_OBJECTS = \
 "CMakeFiles/Hero_HK.dir/main.cpp.o" \
-"CMakeFiles/Hero_HK.dir/Thread/MyThread.cpp.o"
+"CMakeFiles/Hero_HK.dir/Thread/MyThread.cpp.o" \
+"CMakeFiles/Hero_HK.dir/Armor/ArmorDetect.cpp.o" \
+"CMakeFiles/Hero_HK.dir/Drawing.cpp.o" \
+"CMakeFiles/Hero_HK.dir/Armor/LightBar.cpp.o" \
+"CMakeFiles/Hero_HK.dir/Armor/ArmorBox.cpp.o" \
+"CMakeFiles/Hero_HK.dir/Armor/NumClassifier.cpp.o"
 
 # External object files for target Hero_HK
 Hero_HK_EXTERNAL_OBJECTS =
 
 Hero_HK: CMakeFiles/Hero_HK.dir/main.cpp.o
 Hero_HK: CMakeFiles/Hero_HK.dir/Thread/MyThread.cpp.o
+Hero_HK: CMakeFiles/Hero_HK.dir/Armor/ArmorDetect.cpp.o
+Hero_HK: CMakeFiles/Hero_HK.dir/Drawing.cpp.o
+Hero_HK: CMakeFiles/Hero_HK.dir/Armor/LightBar.cpp.o
+Hero_HK: CMakeFiles/Hero_HK.dir/Armor/ArmorBox.cpp.o
+Hero_HK: CMakeFiles/Hero_HK.dir/Armor/NumClassifier.cpp.o
 Hero_HK: CMakeFiles/Hero_HK.dir/build.make
 Hero_HK: /usr/lib/aarch64-linux-gnu/libopencv_gapi.so.4.5.4
 Hero_HK: /usr/lib/aarch64-linux-gnu/libopencv_highgui.so.4.5.4
@@ -124,7 +204,7 @@ Hero_HK: /usr/lib/aarch64-linux-gnu/libopencv_flann.so.4.5.4
 Hero_HK: /usr/lib/aarch64-linux-gnu/libopencv_imgproc.so.4.5.4
 Hero_HK: /usr/lib/aarch64-linux-gnu/libopencv_core.so.4.5.4
 Hero_HK: CMakeFiles/Hero_HK.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/tcrnx/Hero_HK/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable Hero_HK"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/tcrnx/Hero_HK/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable Hero_HK"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Hero_HK.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

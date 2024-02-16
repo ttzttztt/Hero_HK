@@ -1,7 +1,8 @@
-CMakeFiles/Hero_HK.dir/main.cpp.o: /home/tcrnx/Hero_HK/main.cpp \
- /usr/include/stdc-predef.h /home/tcrnx/Hero_HK/Thread/MyThread.h \
- /usr/include/c++/9/thread /usr/include/c++/9/chrono \
- /usr/include/c++/9/ratio /usr/include/c++/9/type_traits \
+CMakeFiles/Hero_HK.dir/Drawing.cpp.o: /home/tcrnx/Hero_HK/Drawing.cpp \
+ /usr/include/stdc-predef.h /home/tcrnx/Hero_HK/Armor/ArmorDetect.h \
+ /home/tcrnx/Hero_HK/Armor/../Struct.h /usr/include/c++/9/thread \
+ /usr/include/c++/9/chrono /usr/include/c++/9/ratio \
+ /usr/include/c++/9/type_traits \
  /usr/include/aarch64-linux-gnu/c++/9/bits/c++config.h \
  /usr/include/aarch64-linux-gnu/c++/9/bits/os_defines.h \
  /usr/include/features.h /usr/include/aarch64-linux-gnu/sys/cdefs.h \
@@ -317,6 +318,4 @@ CMakeFiles/Hero_HK.dir/main.cpp.o: /home/tcrnx/Hero_HK/main.cpp \
  /usr/include/opencv4/opencv2/stitching/detail/camera.hpp \
  /usr/include/opencv4/opencv2/video.hpp \
  /usr/include/opencv4/opencv2/video/tracking.hpp \
- /usr/include/opencv4/opencv2/video/background_segm.hpp \
- /home/tcrnx/Hero_HK/Thread/../Armor/ArmorDetect.h \
- /home/tcrnx/Hero_HK/Thread/../Armor/../Struct.h
+ /usr/include/opencv4/opencv2/video/background_segm.hpp

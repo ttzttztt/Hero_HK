@@ -13,7 +13,11 @@ set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS}-pthread")
 add_executable(Hero_HK
         main.cpp
         Thread/MyThread.cpp
-        Thread/MyThread.h)
+        Thread/MyThread.h
+        Armor/ArmorDetect.cpp
+        Armor/ArmorDetect.h
+        Struct.h
+        Drawing.cpp Armor/LightBar.cpp Armor/ArmorBox.cpp Armor/NumClassifier.cpp)
 
 target_link_libraries(Hero_HK ${OpenCV_LIBS})
 target_link_libraries(Hero_HK ${pthread})

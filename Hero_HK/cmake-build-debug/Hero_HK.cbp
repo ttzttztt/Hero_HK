@@ -84,6 +84,27 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/tcrnx/Hero_HK/Armor/ArmorBox.cpp">
+			<Option target="Hero_HK"/>
+		</Unit>
+		<Unit filename="/home/tcrnx/Hero_HK/Armor/ArmorDetect.cpp">
+			<Option target="Hero_HK"/>
+		</Unit>
+		<Unit filename="/home/tcrnx/Hero_HK/Armor/ArmorDetect.h">
+			<Option target="Hero_HK"/>
+		</Unit>
+		<Unit filename="/home/tcrnx/Hero_HK/Armor/LightBar.cpp">
+			<Option target="Hero_HK"/>
+		</Unit>
+		<Unit filename="/home/tcrnx/Hero_HK/Armor/NumClassifier.cpp">
+			<Option target="Hero_HK"/>
+		</Unit>
+		<Unit filename="/home/tcrnx/Hero_HK/Drawing.cpp">
+			<Option target="Hero_HK"/>
+		</Unit>
+		<Unit filename="/home/tcrnx/Hero_HK/Struct.h">
+			<Option target="Hero_HK"/>
+		</Unit>
 		<Unit filename="/home/tcrnx/Hero_HK/Thread/MyThread.cpp">
 			<Option target="Hero_HK"/>
 		</Unit>

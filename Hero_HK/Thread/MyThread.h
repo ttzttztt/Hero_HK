@@ -4,6 +4,7 @@
 #include<iostream>
 #include<vector>
 #include<opencv2/opencv.hpp>
+#include"../Armor/ArmorDetect.h"
 using namespace std;
 using namespace cv;
 
@@ -14,11 +15,14 @@ using namespace cv;
 class MyThread
 {
 public:
+    //视频线程
     void VideoThread();
+    //装甲板识别线程
+    void decThread();
 private:
     Mat frame;
-    bool isContinue=true;
     mutex mutexLock;
+    condition_variable DetectCondition,Condition; //条件变量：装甲板检测，视频/相机的图片载入
 };
 
 

@@ -318,4 +318,6 @@ CMakeFiles/Hero_HK.dir/Thread/MyThread.cpp.o: \
  /usr/include/opencv4/opencv2/stitching/detail/camera.hpp \
  /usr/include/opencv4/opencv2/video.hpp \
  /usr/include/opencv4/opencv2/video/tracking.hpp \
- /usr/include/opencv4/opencv2/video/background_segm.hpp
+ /usr/include/opencv4/opencv2/video/background_segm.hpp \
+ /home/tcrnx/Hero_HK/Thread/../Armor/ArmorDetect.h \
+ /home/tcrnx/Hero_HK/Thread/../Armor/../Struct.h

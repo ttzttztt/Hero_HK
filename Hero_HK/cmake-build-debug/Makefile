@@ -129,6 +129,126 @@ Hero_HK/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Hero_HK.dir/build.make CMakeFiles/Hero_HK.dir/build
 .PHONY : Hero_HK/fast
 
+Armor/ArmorBox.o: Armor/ArmorBox.cpp.o
+.PHONY : Armor/ArmorBox.o
+
+# target to build an object file
+Armor/ArmorBox.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Hero_HK.dir/build.make CMakeFiles/Hero_HK.dir/Armor/ArmorBox.cpp.o
+.PHONY : Armor/ArmorBox.cpp.o
+
+Armor/ArmorBox.i: Armor/ArmorBox.cpp.i
+.PHONY : Armor/ArmorBox.i
+
+# target to preprocess a source file
+Armor/ArmorBox.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Hero_HK.dir/build.make CMakeFiles/Hero_HK.dir/Armor/ArmorBox.cpp.i
+.PHONY : Armor/ArmorBox.cpp.i
+
+Armor/ArmorBox.s: Armor/ArmorBox.cpp.s
+.PHONY : Armor/ArmorBox.s
+
+# target to generate assembly for a file
+Armor/ArmorBox.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Hero_HK.dir/build.make CMakeFiles/Hero_HK.dir/Armor/ArmorBox.cpp.s
+.PHONY : Armor/ArmorBox.cpp.s
+
+Armor/ArmorDetect.o: Armor/ArmorDetect.cpp.o
+.PHONY : Armor/ArmorDetect.o
+
+# target to build an object file
+Armor/ArmorDetect.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Hero_HK.dir/build.make CMakeFiles/Hero_HK.dir/Armor/ArmorDetect.cpp.o
+.PHONY : Armor/ArmorDetect.cpp.o
+
+Armor/ArmorDetect.i: Armor/ArmorDetect.cpp.i
+.PHONY : Armor/ArmorDetect.i
+
+# target to preprocess a source file
+Armor/ArmorDetect.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Hero_HK.dir/build.make CMakeFiles/Hero_HK.dir/Armor/ArmorDetect.cpp.i
+.PHONY : Armor/ArmorDetect.cpp.i
+
+Armor/ArmorDetect.s: Armor/ArmorDetect.cpp.s
+.PHONY : Armor/ArmorDetect.s
+
+# target to generate assembly for a file
+Armor/ArmorDetect.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Hero_HK.dir/build.make CMakeFiles/Hero_HK.dir/Armor/ArmorDetect.cpp.s
+.PHONY : Armor/ArmorDetect.cpp.s
+
+Armor/LightBar.o: Armor/LightBar.cpp.o
+.PHONY : Armor/LightBar.o
+
+# target to build an object file
+Armor/LightBar.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Hero_HK.dir/build.make CMakeFiles/Hero_HK.dir/Armor/LightBar.cpp.o
+.PHONY : Armor/LightBar.cpp.o
+
+Armor/LightBar.i: Armor/LightBar.cpp.i
+.PHONY : Armor/LightBar.i
+
+# target to preprocess a source file
+Armor/LightBar.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Hero_HK.dir/build.make CMakeFiles/Hero_HK.dir/Armor/LightBar.cpp.i
+.PHONY : Armor/LightBar.cpp.i
+
+Armor/LightBar.s: Armor/LightBar.cpp.s
+.PHONY : Armor/LightBar.s
+
+# target to generate assembly for a file
+Armor/LightBar.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Hero_HK.dir/build.make CMakeFiles/Hero_HK.dir/Armor/LightBar.cpp.s
+.PHONY : Armor/LightBar.cpp.s
+
+Armor/NumClassifier.o: Armor/NumClassifier.cpp.o
+.PHONY : Armor/NumClassifier.o
+
+# target to build an object file
+Armor/NumClassifier.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Hero_HK.dir/build.make CMakeFiles/Hero_HK.dir/Armor/NumClassifier.cpp.o
+.PHONY : Armor/NumClassifier.cpp.o
+
+Armor/NumClassifier.i: Armor/NumClassifier.cpp.i
+.PHONY : Armor/NumClassifier.i
+
+# target to preprocess a source file
+Armor/NumClassifier.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Hero_HK.dir/build.make CMakeFiles/Hero_HK.dir/Armor/NumClassifier.cpp.i
+.PHONY : Armor/NumClassifier.cpp.i
+
+Armor/NumClassifier.s: Armor/NumClassifier.cpp.s
+.PHONY : Armor/NumClassifier.s
+
+# target to generate assembly for a file
+Armor/NumClassifier.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Hero_HK.dir/build.make CMakeFiles/Hero_HK.dir/Armor/NumClassifier.cpp.s
+.PHONY : Armor/NumClassifier.cpp.s
+
+Drawing.o: Drawing.cpp.o
+.PHONY : Drawing.o
+
+# target to build an object file
+Drawing.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Hero_HK.dir/build.make CMakeFiles/Hero_HK.dir/Drawing.cpp.o
+.PHONY : Drawing.cpp.o
+
+Drawing.i: Drawing.cpp.i
+.PHONY : Drawing.i
+
+# target to preprocess a source file
+Drawing.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Hero_HK.dir/build.make CMakeFiles/Hero_HK.dir/Drawing.cpp.i
+.PHONY : Drawing.cpp.i
+
+Drawing.s: Drawing.cpp.s
+.PHONY : Drawing.s
+
+# target to generate assembly for a file
+Drawing.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Hero_HK.dir/build.make CMakeFiles/Hero_HK.dir/Drawing.cpp.s
+.PHONY : Drawing.cpp.s
+
 Thread/MyThread.o: Thread/MyThread.cpp.o
 .PHONY : Thread/MyThread.o
 
@@ -186,6 +306,21 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Hero_HK"
+	@echo "... Armor/ArmorBox.o"
+	@echo "... Armor/ArmorBox.i"
+	@echo "... Armor/ArmorBox.s"
+	@echo "... Armor/ArmorDetect.o"
+	@echo "... Armor/ArmorDetect.i"
+	@echo "... Armor/ArmorDetect.s"
+	@echo "... Armor/LightBar.o"
+	@echo "... Armor/LightBar.i"
+	@echo "... Armor/LightBar.s"
+	@echo "... Armor/NumClassifier.o"
+	@echo "... Armor/NumClassifier.i"
+	@echo "... Armor/NumClassifier.s"
+	@echo "... Drawing.o"
+	@echo "... Drawing.i"
+	@echo "... Drawing.s"
 	@echo "... Thread/MyThread.o"
 	@echo "... Thread/MyThread.i"
 	@echo "... Thread/MyThread.s"
