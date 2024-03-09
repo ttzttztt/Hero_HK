@@ -5,7 +5,7 @@
 		<Option title="Hero_HK"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\usr\;CMake Files\..\..\..\usr\lib\;CMake Files\..\..\..\usr\lib\aarch64-linux-gnu\;CMake Files\..\..\..\usr\lib\aarch64-linux-gnu\cmake\;CMake Files\..\..\..\usr\lib\aarch64-linux-gnu\cmake\opencv4\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\usr\;CMake Files\..\..\..\usr\lib\;CMake Files\..\..\..\usr\lib\aarch64-linux-gnu\;CMake Files\..\..\..\usr\lib\aarch64-linux-gnu\cmake\;CMake Files\..\..\..\usr\lib\aarch64-linux-gnu\cmake\opencv4\;CMake Files\..\..\..\usr\lib\cmake\;CMake Files\..\..\..\usr\lib\cmake\eigen3\;CMake Files\..\..\..\usr\local\;CMake Files\..\..\..\usr\local\share\;CMake Files\..\..\..\usr\local\share\sophus\;CMake Files\..\..\..\usr\local\share\sophus\cmake\;CMake Files\..\..\..\usr\local\lib\;CMake Files\..\..\..\usr\local\lib\cmake\;CMake Files\..\..\..\usr\local\lib\cmake\fmt\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="/home/tcrnx/Hero_HK/cmake-build-debug"/>
@@ -24,6 +24,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/usr/include/eigen3"/>
 					<Add directory="/usr/include/opencv4"/>
 					<Add directory="/usr/include/c++/9"/>
 					<Add directory="/usr/include/aarch64-linux-gnu/c++/9"/>
@@ -47,6 +48,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/usr/include/eigen3"/>
 					<Add directory="/usr/include/opencv4"/>
 					<Add directory="/usr/include/c++/9"/>
 					<Add directory="/usr/include/aarch64-linux-gnu/c++/9"/>
@@ -84,6 +86,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/tcrnx/Hero_HK/Analaze_Data/Analaze_Data.cpp">
+			<Option target="Hero_HK"/>
+		</Unit>
+		<Unit filename="/home/tcrnx/Hero_HK/Analaze_Data/Analaze_Data.h">
+			<Option target="Hero_HK"/>
+		</Unit>
 		<Unit filename="/home/tcrnx/Hero_HK/Armor/ArmorBox.cpp">
 			<Option target="Hero_HK"/>
 		</Unit>
@@ -99,7 +107,28 @@
 		<Unit filename="/home/tcrnx/Hero_HK/Armor/NumClassifier.cpp">
 			<Option target="Hero_HK"/>
 		</Unit>
+		<Unit filename="/home/tcrnx/Hero_HK/Armor/matchArmors.cpp">
+			<Option target="Hero_HK"/>
+		</Unit>
 		<Unit filename="/home/tcrnx/Hero_HK/Drawing.cpp">
+			<Option target="Hero_HK"/>
+		</Unit>
+		<Unit filename="/home/tcrnx/Hero_HK/HaikangCamera/HaikangCameraRGB.cpp">
+			<Option target="Hero_HK"/>
+		</Unit>
+		<Unit filename="/home/tcrnx/Hero_HK/HaikangCamera/HaikangCameraRGB.h">
+			<Option target="Hero_HK"/>
+		</Unit>
+		<Unit filename="/home/tcrnx/Hero_HK/PNP_Distance/PNP_Distance.cpp">
+			<Option target="Hero_HK"/>
+		</Unit>
+		<Unit filename="/home/tcrnx/Hero_HK/PNP_Distance/PNP_Distance.h">
+			<Option target="Hero_HK"/>
+		</Unit>
+		<Unit filename="/home/tcrnx/Hero_HK/SerialPort/SerialPort.cpp">
+			<Option target="Hero_HK"/>
+		</Unit>
+		<Unit filename="/home/tcrnx/Hero_HK/SerialPort/SerialPort.h">
 			<Option target="Hero_HK"/>
 		</Unit>
 		<Unit filename="/home/tcrnx/Hero_HK/Struct.h">
@@ -128,6 +157,36 @@
 		</Unit>
 		<Unit filename="/home/tcrnx/Hero_HK/../../../usr/lib/aarch64-linux-gnu/cmake/opencv4/OpenCVModules.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\usr\lib\aarch64-linux-gnu\cmake\opencv4\"/>
+		</Unit>
+		<Unit filename="/home/tcrnx/Hero_HK/../../../usr/lib/cmake/eigen3/Eigen3Config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\lib\cmake\eigen3\"/>
+		</Unit>
+		<Unit filename="/home/tcrnx/Hero_HK/../../../usr/lib/cmake/eigen3/Eigen3ConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\lib\cmake\eigen3\"/>
+		</Unit>
+		<Unit filename="/home/tcrnx/Hero_HK/../../../usr/lib/cmake/eigen3/Eigen3Targets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\lib\cmake\eigen3\"/>
+		</Unit>
+		<Unit filename="/home/tcrnx/Hero_HK/../../../usr/local/share/sophus/cmake/SophusConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\local\share\sophus\cmake\"/>
+		</Unit>
+		<Unit filename="/home/tcrnx/Hero_HK/../../../usr/local/share/sophus/cmake/SophusConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\local\share\sophus\cmake\"/>
+		</Unit>
+		<Unit filename="/home/tcrnx/Hero_HK/../../../usr/local/share/sophus/cmake/SophusTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\local\share\sophus\cmake\"/>
+		</Unit>
+		<Unit filename="/home/tcrnx/Hero_HK/../../../usr/local/lib/cmake/fmt/fmt-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\local\lib\cmake\fmt\"/>
+		</Unit>
+		<Unit filename="/home/tcrnx/Hero_HK/../../../usr/local/lib/cmake/fmt/fmt-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\local\lib\cmake\fmt\"/>
+		</Unit>
+		<Unit filename="/home/tcrnx/Hero_HK/../../../usr/local/lib/cmake/fmt/fmt-targets-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\local\lib\cmake\fmt\"/>
+		</Unit>
+		<Unit filename="/home/tcrnx/Hero_HK/../../../usr/local/lib/cmake/fmt/fmt-targets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\local\lib\cmake\fmt\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>
