@@ -167,6 +167,76 @@ CMakeFiles/Hero_HK.dir/Armor/NumClassifier.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Hero_HK.dir/Armor/NumClassifier.cpp.s"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tcrnx/Hero_HK/Armor/NumClassifier.cpp -o CMakeFiles/Hero_HK.dir/Armor/NumClassifier.cpp.s
 
+CMakeFiles/Hero_HK.dir/PNP_Distance/PNP_Distance.cpp.o: CMakeFiles/Hero_HK.dir/flags.make
+CMakeFiles/Hero_HK.dir/PNP_Distance/PNP_Distance.cpp.o: /home/tcrnx/Hero_HK/PNP_Distance/PNP_Distance.cpp
+CMakeFiles/Hero_HK.dir/PNP_Distance/PNP_Distance.cpp.o: CMakeFiles/Hero_HK.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tcrnx/Hero_HK/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Hero_HK.dir/PNP_Distance/PNP_Distance.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Hero_HK.dir/PNP_Distance/PNP_Distance.cpp.o -MF CMakeFiles/Hero_HK.dir/PNP_Distance/PNP_Distance.cpp.o.d -o CMakeFiles/Hero_HK.dir/PNP_Distance/PNP_Distance.cpp.o -c /home/tcrnx/Hero_HK/PNP_Distance/PNP_Distance.cpp
+
+CMakeFiles/Hero_HK.dir/PNP_Distance/PNP_Distance.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Hero_HK.dir/PNP_Distance/PNP_Distance.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tcrnx/Hero_HK/PNP_Distance/PNP_Distance.cpp > CMakeFiles/Hero_HK.dir/PNP_Distance/PNP_Distance.cpp.i
+
+CMakeFiles/Hero_HK.dir/PNP_Distance/PNP_Distance.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Hero_HK.dir/PNP_Distance/PNP_Distance.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tcrnx/Hero_HK/PNP_Distance/PNP_Distance.cpp -o CMakeFiles/Hero_HK.dir/PNP_Distance/PNP_Distance.cpp.s
+
+CMakeFiles/Hero_HK.dir/Armor/matchArmors.cpp.o: CMakeFiles/Hero_HK.dir/flags.make
+CMakeFiles/Hero_HK.dir/Armor/matchArmors.cpp.o: /home/tcrnx/Hero_HK/Armor/matchArmors.cpp
+CMakeFiles/Hero_HK.dir/Armor/matchArmors.cpp.o: CMakeFiles/Hero_HK.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tcrnx/Hero_HK/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Hero_HK.dir/Armor/matchArmors.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Hero_HK.dir/Armor/matchArmors.cpp.o -MF CMakeFiles/Hero_HK.dir/Armor/matchArmors.cpp.o.d -o CMakeFiles/Hero_HK.dir/Armor/matchArmors.cpp.o -c /home/tcrnx/Hero_HK/Armor/matchArmors.cpp
+
+CMakeFiles/Hero_HK.dir/Armor/matchArmors.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Hero_HK.dir/Armor/matchArmors.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tcrnx/Hero_HK/Armor/matchArmors.cpp > CMakeFiles/Hero_HK.dir/Armor/matchArmors.cpp.i
+
+CMakeFiles/Hero_HK.dir/Armor/matchArmors.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Hero_HK.dir/Armor/matchArmors.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tcrnx/Hero_HK/Armor/matchArmors.cpp -o CMakeFiles/Hero_HK.dir/Armor/matchArmors.cpp.s
+
+CMakeFiles/Hero_HK.dir/HaikangCamera/HaikangCameraRGB.cpp.o: CMakeFiles/Hero_HK.dir/flags.make
+CMakeFiles/Hero_HK.dir/HaikangCamera/HaikangCameraRGB.cpp.o: /home/tcrnx/Hero_HK/HaikangCamera/HaikangCameraRGB.cpp
+CMakeFiles/Hero_HK.dir/HaikangCamera/HaikangCameraRGB.cpp.o: CMakeFiles/Hero_HK.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tcrnx/Hero_HK/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Hero_HK.dir/HaikangCamera/HaikangCameraRGB.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Hero_HK.dir/HaikangCamera/HaikangCameraRGB.cpp.o -MF CMakeFiles/Hero_HK.dir/HaikangCamera/HaikangCameraRGB.cpp.o.d -o CMakeFiles/Hero_HK.dir/HaikangCamera/HaikangCameraRGB.cpp.o -c /home/tcrnx/Hero_HK/HaikangCamera/HaikangCameraRGB.cpp
+
+CMakeFiles/Hero_HK.dir/HaikangCamera/HaikangCameraRGB.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Hero_HK.dir/HaikangCamera/HaikangCameraRGB.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tcrnx/Hero_HK/HaikangCamera/HaikangCameraRGB.cpp > CMakeFiles/Hero_HK.dir/HaikangCamera/HaikangCameraRGB.cpp.i
+
+CMakeFiles/Hero_HK.dir/HaikangCamera/HaikangCameraRGB.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Hero_HK.dir/HaikangCamera/HaikangCameraRGB.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tcrnx/Hero_HK/HaikangCamera/HaikangCameraRGB.cpp -o CMakeFiles/Hero_HK.dir/HaikangCamera/HaikangCameraRGB.cpp.s
+
+CMakeFiles/Hero_HK.dir/SerialPort/SerialPort.cpp.o: CMakeFiles/Hero_HK.dir/flags.make
+CMakeFiles/Hero_HK.dir/SerialPort/SerialPort.cpp.o: /home/tcrnx/Hero_HK/SerialPort/SerialPort.cpp
+CMakeFiles/Hero_HK.dir/SerialPort/SerialPort.cpp.o: CMakeFiles/Hero_HK.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tcrnx/Hero_HK/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/Hero_HK.dir/SerialPort/SerialPort.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Hero_HK.dir/SerialPort/SerialPort.cpp.o -MF CMakeFiles/Hero_HK.dir/SerialPort/SerialPort.cpp.o.d -o CMakeFiles/Hero_HK.dir/SerialPort/SerialPort.cpp.o -c /home/tcrnx/Hero_HK/SerialPort/SerialPort.cpp
+
+CMakeFiles/Hero_HK.dir/SerialPort/SerialPort.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Hero_HK.dir/SerialPort/SerialPort.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tcrnx/Hero_HK/SerialPort/SerialPort.cpp > CMakeFiles/Hero_HK.dir/SerialPort/SerialPort.cpp.i
+
+CMakeFiles/Hero_HK.dir/SerialPort/SerialPort.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Hero_HK.dir/SerialPort/SerialPort.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tcrnx/Hero_HK/SerialPort/SerialPort.cpp -o CMakeFiles/Hero_HK.dir/SerialPort/SerialPort.cpp.s
+
+CMakeFiles/Hero_HK.dir/Analaze_Data/Analaze_Data.cpp.o: CMakeFiles/Hero_HK.dir/flags.make
+CMakeFiles/Hero_HK.dir/Analaze_Data/Analaze_Data.cpp.o: /home/tcrnx/Hero_HK/Analaze_Data/Analaze_Data.cpp
+CMakeFiles/Hero_HK.dir/Analaze_Data/Analaze_Data.cpp.o: CMakeFiles/Hero_HK.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tcrnx/Hero_HK/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/Hero_HK.dir/Analaze_Data/Analaze_Data.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Hero_HK.dir/Analaze_Data/Analaze_Data.cpp.o -MF CMakeFiles/Hero_HK.dir/Analaze_Data/Analaze_Data.cpp.o.d -o CMakeFiles/Hero_HK.dir/Analaze_Data/Analaze_Data.cpp.o -c /home/tcrnx/Hero_HK/Analaze_Data/Analaze_Data.cpp
+
+CMakeFiles/Hero_HK.dir/Analaze_Data/Analaze_Data.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Hero_HK.dir/Analaze_Data/Analaze_Data.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tcrnx/Hero_HK/Analaze_Data/Analaze_Data.cpp > CMakeFiles/Hero_HK.dir/Analaze_Data/Analaze_Data.cpp.i
+
+CMakeFiles/Hero_HK.dir/Analaze_Data/Analaze_Data.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Hero_HK.dir/Analaze_Data/Analaze_Data.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tcrnx/Hero_HK/Analaze_Data/Analaze_Data.cpp -o CMakeFiles/Hero_HK.dir/Analaze_Data/Analaze_Data.cpp.s
+
 # Object files for target Hero_HK
 Hero_HK_OBJECTS = \
 "CMakeFiles/Hero_HK.dir/main.cpp.o" \
@@ -175,7 +245,12 @@ Hero_HK_OBJECTS = \
 "CMakeFiles/Hero_HK.dir/Drawing.cpp.o" \
 "CMakeFiles/Hero_HK.dir/Armor/LightBar.cpp.o" \
 "CMakeFiles/Hero_HK.dir/Armor/ArmorBox.cpp.o" \
-"CMakeFiles/Hero_HK.dir/Armor/NumClassifier.cpp.o"
+"CMakeFiles/Hero_HK.dir/Armor/NumClassifier.cpp.o" \
+"CMakeFiles/Hero_HK.dir/PNP_Distance/PNP_Distance.cpp.o" \
+"CMakeFiles/Hero_HK.dir/Armor/matchArmors.cpp.o" \
+"CMakeFiles/Hero_HK.dir/HaikangCamera/HaikangCameraRGB.cpp.o" \
+"CMakeFiles/Hero_HK.dir/SerialPort/SerialPort.cpp.o" \
+"CMakeFiles/Hero_HK.dir/Analaze_Data/Analaze_Data.cpp.o"
 
 # External object files for target Hero_HK
 Hero_HK_EXTERNAL_OBJECTS =
@@ -187,6 +262,11 @@ Hero_HK: CMakeFiles/Hero_HK.dir/Drawing.cpp.o
 Hero_HK: CMakeFiles/Hero_HK.dir/Armor/LightBar.cpp.o
 Hero_HK: CMakeFiles/Hero_HK.dir/Armor/ArmorBox.cpp.o
 Hero_HK: CMakeFiles/Hero_HK.dir/Armor/NumClassifier.cpp.o
+Hero_HK: CMakeFiles/Hero_HK.dir/PNP_Distance/PNP_Distance.cpp.o
+Hero_HK: CMakeFiles/Hero_HK.dir/Armor/matchArmors.cpp.o
+Hero_HK: CMakeFiles/Hero_HK.dir/HaikangCamera/HaikangCameraRGB.cpp.o
+Hero_HK: CMakeFiles/Hero_HK.dir/SerialPort/SerialPort.cpp.o
+Hero_HK: CMakeFiles/Hero_HK.dir/Analaze_Data/Analaze_Data.cpp.o
 Hero_HK: CMakeFiles/Hero_HK.dir/build.make
 Hero_HK: /usr/lib/aarch64-linux-gnu/libopencv_gapi.so.4.5.4
 Hero_HK: /usr/lib/aarch64-linux-gnu/libopencv_highgui.so.4.5.4
@@ -196,6 +276,8 @@ Hero_HK: /usr/lib/aarch64-linux-gnu/libopencv_photo.so.4.5.4
 Hero_HK: /usr/lib/aarch64-linux-gnu/libopencv_stitching.so.4.5.4
 Hero_HK: /usr/lib/aarch64-linux-gnu/libopencv_video.so.4.5.4
 Hero_HK: /usr/lib/aarch64-linux-gnu/libopencv_videoio.so.4.5.4
+Hero_HK: /opt/MVS/lib/aarch64/libMvCameraControl.so
+Hero_HK: /usr/local/lib/libfmt.a
 Hero_HK: /usr/lib/aarch64-linux-gnu/libopencv_imgcodecs.so.4.5.4
 Hero_HK: /usr/lib/aarch64-linux-gnu/libopencv_dnn.so.4.5.4
 Hero_HK: /usr/lib/aarch64-linux-gnu/libopencv_calib3d.so.4.5.4
@@ -204,7 +286,7 @@ Hero_HK: /usr/lib/aarch64-linux-gnu/libopencv_flann.so.4.5.4
 Hero_HK: /usr/lib/aarch64-linux-gnu/libopencv_imgproc.so.4.5.4
 Hero_HK: /usr/lib/aarch64-linux-gnu/libopencv_core.so.4.5.4
 Hero_HK: CMakeFiles/Hero_HK.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/tcrnx/Hero_HK/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable Hero_HK"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/tcrnx/Hero_HK/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Linking CXX executable Hero_HK"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Hero_HK.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

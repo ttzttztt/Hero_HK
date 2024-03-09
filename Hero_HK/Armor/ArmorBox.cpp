@@ -25,21 +25,21 @@ const Point2f crossPointof(const Point2f& bl, const Point2f& tl, const Point2f& 
 void setArmorVertices(const LightBar& l_light, const LightBar& r_light, ArmorBox& armor)
 {
     //处理两个灯条
-    cv::Size exLSize(int(l_light.lightRect.size.width), int(l_light.lightRect.size.height * 2));
-    cv::Size exRSize(int(r_light.lightRect.size.width), int(r_light.lightRect.size.height * 2));
+    cv::Size exLSize(int(l_light.lightRect.size.width), int(l_light.lightRect.size.height ));
+    cv::Size exRSize(int(r_light.lightRect.size.width), int(r_light.lightRect.size.height ));
     cv::RotatedRect exLLight(l_light.center, exLSize, armor.armorAngle);
     cv::RotatedRect exRLight(r_light.center, exRSize, armor.armorAngle);
 
     // 选装矩阵的.points[4]中为顺时针的旋转矩阵四个顶点，[0]和[3]之间的距离为旋转矩阵的宽
     cv::Point2f pts_l[4];
-    exLLight.points(pts_l);
-    cv::Point2f upper_l = pts_l[2];
-    cv::Point2f lower_l = pts_l[3];
+    exLLight.points(pts_l); //左灯条
+    cv::Point2f upper_l = pts_l[2]; //左灯条的右上
+    cv::Point2f lower_l = pts_l[3]; //左灯条的右下
 
-    cv::Point2f pts_r[4];
+    cv::Point2f pts_r[4];//右灯条
     exRLight.points(pts_r);
-    cv::Point2f upper_r = pts_r[1];
-    cv::Point2f lower_r = pts_r[0];
+    cv::Point2f upper_r = pts_r[1]; //右灯条的左上
+    cv::Point2f lower_r = pts_r[0];//右灯条的左下
 
     armor.armorVertices.clear();
     armor.armorVertices.push_back(upper_l);
@@ -56,7 +56,8 @@ ArmorBox::ArmorBox()
     l_light = LightBar();
     r_light = LightBar();
     armorNum = 0;
-
+    armorVertices.resize(4);
+    type=SMALL_ARMOR;
     center = Point2f();
     armorRect = Rect();
     armorImg = Mat();
@@ -70,7 +71,6 @@ ArmorBox::ArmorBox(const LightBar& l_light, const LightBar& r_light)
     this->l_light = l_light;
     this->r_light = r_light;
 
-    armorNum = 0;
     // 装甲板角度即为两灯条的角度平均值
     armorAngle = (l_light.angle + r_light.angle) / 2;
 
@@ -83,6 +83,12 @@ ArmorBox::ArmorBox(const LightBar& l_light, const LightBar& r_light)
 
     // 得到对象轮廓后，用boundingRect()函数得到包覆此轮廓的最小正矩形（装甲板的roi区域）
     armorRect = boundingRect(armorVertices);
+
+    // 灯条位置差距 两灯条中心X方向差距比值 来决定大小装甲板
+    if(this->getDislocationX()>2.7)
+        type=BIG_ARMOR;
+    else
+        type=SMALL_ARMOR;
 
 }
 

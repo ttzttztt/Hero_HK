@@ -129,6 +129,30 @@ Hero_HK/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Hero_HK.dir/build.make CMakeFiles/Hero_HK.dir/build
 .PHONY : Hero_HK/fast
 
+Analaze_Data/Analaze_Data.o: Analaze_Data/Analaze_Data.cpp.o
+.PHONY : Analaze_Data/Analaze_Data.o
+
+# target to build an object file
+Analaze_Data/Analaze_Data.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Hero_HK.dir/build.make CMakeFiles/Hero_HK.dir/Analaze_Data/Analaze_Data.cpp.o
+.PHONY : Analaze_Data/Analaze_Data.cpp.o
+
+Analaze_Data/Analaze_Data.i: Analaze_Data/Analaze_Data.cpp.i
+.PHONY : Analaze_Data/Analaze_Data.i
+
+# target to preprocess a source file
+Analaze_Data/Analaze_Data.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Hero_HK.dir/build.make CMakeFiles/Hero_HK.dir/Analaze_Data/Analaze_Data.cpp.i
+.PHONY : Analaze_Data/Analaze_Data.cpp.i
+
+Analaze_Data/Analaze_Data.s: Analaze_Data/Analaze_Data.cpp.s
+.PHONY : Analaze_Data/Analaze_Data.s
+
+# target to generate assembly for a file
+Analaze_Data/Analaze_Data.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Hero_HK.dir/build.make CMakeFiles/Hero_HK.dir/Analaze_Data/Analaze_Data.cpp.s
+.PHONY : Analaze_Data/Analaze_Data.cpp.s
+
 Armor/ArmorBox.o: Armor/ArmorBox.cpp.o
 .PHONY : Armor/ArmorBox.o
 
@@ -225,6 +249,30 @@ Armor/NumClassifier.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Hero_HK.dir/build.make CMakeFiles/Hero_HK.dir/Armor/NumClassifier.cpp.s
 .PHONY : Armor/NumClassifier.cpp.s
 
+Armor/matchArmors.o: Armor/matchArmors.cpp.o
+.PHONY : Armor/matchArmors.o
+
+# target to build an object file
+Armor/matchArmors.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Hero_HK.dir/build.make CMakeFiles/Hero_HK.dir/Armor/matchArmors.cpp.o
+.PHONY : Armor/matchArmors.cpp.o
+
+Armor/matchArmors.i: Armor/matchArmors.cpp.i
+.PHONY : Armor/matchArmors.i
+
+# target to preprocess a source file
+Armor/matchArmors.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Hero_HK.dir/build.make CMakeFiles/Hero_HK.dir/Armor/matchArmors.cpp.i
+.PHONY : Armor/matchArmors.cpp.i
+
+Armor/matchArmors.s: Armor/matchArmors.cpp.s
+.PHONY : Armor/matchArmors.s
+
+# target to generate assembly for a file
+Armor/matchArmors.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Hero_HK.dir/build.make CMakeFiles/Hero_HK.dir/Armor/matchArmors.cpp.s
+.PHONY : Armor/matchArmors.cpp.s
+
 Drawing.o: Drawing.cpp.o
 .PHONY : Drawing.o
 
@@ -248,6 +296,78 @@ Drawing.s: Drawing.cpp.s
 Drawing.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Hero_HK.dir/build.make CMakeFiles/Hero_HK.dir/Drawing.cpp.s
 .PHONY : Drawing.cpp.s
+
+HaikangCamera/HaikangCameraRGB.o: HaikangCamera/HaikangCameraRGB.cpp.o
+.PHONY : HaikangCamera/HaikangCameraRGB.o
+
+# target to build an object file
+HaikangCamera/HaikangCameraRGB.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Hero_HK.dir/build.make CMakeFiles/Hero_HK.dir/HaikangCamera/HaikangCameraRGB.cpp.o
+.PHONY : HaikangCamera/HaikangCameraRGB.cpp.o
+
+HaikangCamera/HaikangCameraRGB.i: HaikangCamera/HaikangCameraRGB.cpp.i
+.PHONY : HaikangCamera/HaikangCameraRGB.i
+
+# target to preprocess a source file
+HaikangCamera/HaikangCameraRGB.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Hero_HK.dir/build.make CMakeFiles/Hero_HK.dir/HaikangCamera/HaikangCameraRGB.cpp.i
+.PHONY : HaikangCamera/HaikangCameraRGB.cpp.i
+
+HaikangCamera/HaikangCameraRGB.s: HaikangCamera/HaikangCameraRGB.cpp.s
+.PHONY : HaikangCamera/HaikangCameraRGB.s
+
+# target to generate assembly for a file
+HaikangCamera/HaikangCameraRGB.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Hero_HK.dir/build.make CMakeFiles/Hero_HK.dir/HaikangCamera/HaikangCameraRGB.cpp.s
+.PHONY : HaikangCamera/HaikangCameraRGB.cpp.s
+
+PNP_Distance/PNP_Distance.o: PNP_Distance/PNP_Distance.cpp.o
+.PHONY : PNP_Distance/PNP_Distance.o
+
+# target to build an object file
+PNP_Distance/PNP_Distance.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Hero_HK.dir/build.make CMakeFiles/Hero_HK.dir/PNP_Distance/PNP_Distance.cpp.o
+.PHONY : PNP_Distance/PNP_Distance.cpp.o
+
+PNP_Distance/PNP_Distance.i: PNP_Distance/PNP_Distance.cpp.i
+.PHONY : PNP_Distance/PNP_Distance.i
+
+# target to preprocess a source file
+PNP_Distance/PNP_Distance.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Hero_HK.dir/build.make CMakeFiles/Hero_HK.dir/PNP_Distance/PNP_Distance.cpp.i
+.PHONY : PNP_Distance/PNP_Distance.cpp.i
+
+PNP_Distance/PNP_Distance.s: PNP_Distance/PNP_Distance.cpp.s
+.PHONY : PNP_Distance/PNP_Distance.s
+
+# target to generate assembly for a file
+PNP_Distance/PNP_Distance.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Hero_HK.dir/build.make CMakeFiles/Hero_HK.dir/PNP_Distance/PNP_Distance.cpp.s
+.PHONY : PNP_Distance/PNP_Distance.cpp.s
+
+SerialPort/SerialPort.o: SerialPort/SerialPort.cpp.o
+.PHONY : SerialPort/SerialPort.o
+
+# target to build an object file
+SerialPort/SerialPort.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Hero_HK.dir/build.make CMakeFiles/Hero_HK.dir/SerialPort/SerialPort.cpp.o
+.PHONY : SerialPort/SerialPort.cpp.o
+
+SerialPort/SerialPort.i: SerialPort/SerialPort.cpp.i
+.PHONY : SerialPort/SerialPort.i
+
+# target to preprocess a source file
+SerialPort/SerialPort.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Hero_HK.dir/build.make CMakeFiles/Hero_HK.dir/SerialPort/SerialPort.cpp.i
+.PHONY : SerialPort/SerialPort.cpp.i
+
+SerialPort/SerialPort.s: SerialPort/SerialPort.cpp.s
+.PHONY : SerialPort/SerialPort.s
+
+# target to generate assembly for a file
+SerialPort/SerialPort.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Hero_HK.dir/build.make CMakeFiles/Hero_HK.dir/SerialPort/SerialPort.cpp.s
+.PHONY : SerialPort/SerialPort.cpp.s
 
 Thread/MyThread.o: Thread/MyThread.cpp.o
 .PHONY : Thread/MyThread.o
@@ -306,6 +426,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Hero_HK"
+	@echo "... Analaze_Data/Analaze_Data.o"
+	@echo "... Analaze_Data/Analaze_Data.i"
+	@echo "... Analaze_Data/Analaze_Data.s"
 	@echo "... Armor/ArmorBox.o"
 	@echo "... Armor/ArmorBox.i"
 	@echo "... Armor/ArmorBox.s"
@@ -318,9 +441,21 @@ help:
 	@echo "... Armor/NumClassifier.o"
 	@echo "... Armor/NumClassifier.i"
 	@echo "... Armor/NumClassifier.s"
+	@echo "... Armor/matchArmors.o"
+	@echo "... Armor/matchArmors.i"
+	@echo "... Armor/matchArmors.s"
 	@echo "... Drawing.o"
 	@echo "... Drawing.i"
 	@echo "... Drawing.s"
+	@echo "... HaikangCamera/HaikangCameraRGB.o"
+	@echo "... HaikangCamera/HaikangCameraRGB.i"
+	@echo "... HaikangCamera/HaikangCameraRGB.s"
+	@echo "... PNP_Distance/PNP_Distance.o"
+	@echo "... PNP_Distance/PNP_Distance.i"
+	@echo "... PNP_Distance/PNP_Distance.s"
+	@echo "... SerialPort/SerialPort.o"
+	@echo "... SerialPort/SerialPort.i"
+	@echo "... SerialPort/SerialPort.s"
 	@echo "... Thread/MyThread.o"
 	@echo "... Thread/MyThread.i"
 	@echo "... Thread/MyThread.s"

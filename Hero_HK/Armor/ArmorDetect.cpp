@@ -4,42 +4,52 @@
 //初始化装甲板识别类的参数
 ArmorParam armorParam=ArmorParam();
 
+//初始化装甲板识别类
+ArmorDetect::ArmorDetect()
+{
+    state=LIGHTS_NOT_FOUND;
+}
+
+
+//析构函数装甲板识别类
+ArmorDetect::~ArmorDetect(){}
+
+
 //载入原图像并进行处理
 void ArmorDetect::setImage(Mat&src,Color color)
 {
+    enemyColor=color;
+    Mat green =Mat::zeros(src.size(),CV_8UC1);
     src.copyTo(Image);
     BinImage=Mat::zeros(src.size(),CV_8UC1);
+    vector<Mat> channels;
+    split(Image,channels);
 
-    uchar*pdata=(uchar*)Image.data;
-    uchar*qdata=(uchar*)BinImage.data;
-    int ImageSize=Image.rows*Image.cols;
+
     if (enemyColor == RED)
     {
-        for (int i = 0; i < ImageSize; i++)
-        {
-            if (*(pdata + 2) - *pdata > armorParam.color_threshold)
-                *qdata = 255;
-            pdata += 3;
-            qdata++;
-        }
+        subtract(channels[2],channels[0],BinImage);
+        threshold(BinImage,BinImage,armorParam.color_threshold,255,THRESH_BINARY);
+        subtract(channels[1],channels[0],green);//g-r
+
     }
         // 提取蓝色灯条
     else if (enemyColor == BLUE)
     {
-        for (int i = 0; i < ImageSize; i++)
-        {
-            if (*pdata - *(pdata + 2) > armorParam.color_threshold)
-                *qdata = 255;
-            pdata += 3;
-            qdata++;
-        }
+        subtract(channels[0],channels[2],BinImage);
+        threshold(BinImage,BinImage,armorParam.color_threshold,255,THRESH_BINARY);
+        subtract(green,channels[0],green); //g-b
+
     }
 
+    threshold(green,green,50,255,THRESH_BINARY_INV);
+    bitwise_and(BinImage,green,BinImage);
+    Mat kernel = getStructuringElement(MORPH_ELLIPSE, Size(3,3)); // 矩形内核形状，(3, 3)内核尺寸
+    morphologyEx(BinImage,BinImage,MORPH_CLOSE,kernel);
+//    cvtColor(src,green,COLOR_RGB2GRAY);
+//    threshold(green,BinImage,150,255,THRESH_BINARY);
 
-    Mat kernel = getStructuringElement(MORPH_ELLIPSE, Size(9,9)); // 矩形内核形状，(3, 3)内核尺寸
-    dilate(BinImage, BinImage, kernel); // 对BinImage进行膨胀操作，使灯条区域更加平滑
 
-    imshow("BinImage",BinImage);
 }
 
 
@@ -82,58 +92,58 @@ void ArmorDetect::findLights()
 }
 
 
-// 针对游离灯条导致的错误装甲板进行检测和删除
-void eraseErrorRepeatArmor(vector<ArmorBox>& armors)
-{
-    int length = armors.size();
-    vector<ArmorBox>::iterator it = armors.begin();		// 迭代检测到的装甲板
-    // 根据同一位置上的灯条由于游离灯条可能构造出其他错误的装甲板，因此根据灯条错位度角删除错位角大的装甲板
-    for (size_t i = 0; i < length; i++) {
-        for (size_t j = i + 1; j < length; j++)
-        {
-            if (armors[i].l_index == armors[j].l_index ||
-                armors[i].l_index == armors[j].r_index ||
-                armors[i].r_index == armors[j].l_index ||
-                armors[i].r_index == armors[j].r_index)
-            {
-                // .erase() 删除所迭代到的错误装甲板
-                armors[i].getDeviationAngle() > armors[j].getDeviationAngle() ? armors.erase(it + i) : armors.erase(it + j);
-            }
-        }
-    }
-}
 
-//匹配装甲板
-void ArmorDetect::matchArmors()
+//装甲板识别集成函数
+void ArmorDetect::run(Mat&Img,Color enemy_Color)
 {
-    for(int i=0;i<lights.size();i++)
-    {
-        for(int j=i+1;j<lights.size();j++)
-        {
-            ArmorBox armor=ArmorBox(lights[i],lights[j]);
-            // 利用ArmorBox类中的子函数判断这个装甲板是否是一个合适的装甲板
-            if (armor.isSuitableArmor()) // 如果是合适的装甲板，则设置其他装甲板信息
-            {
-                armor.l_index = i; // 左灯条在lights数组中的下标
-                armor.r_index = j; // 右灯条在lights数组中的下标
-                armors.emplace_back(armor); // 将识别到的装甲板存入armors数组中
-            }
-        }
-        eraseErrorRepeatArmor(armors);// 删除游离灯条导致的错误装甲板
-    }
-}
+    //得到击打颜色
 
+    //预处理图像
+    setImage(Img,enemy_Color);
+    imshow("BinImage",BinImage);
 
-void ArmorDetect::run(Mat&Img)
-{
-    setImage(Img,BLUE);
+    //清除上一帧找到的灯条和装甲板
     lights.clear();
     armors.clear();
+
+    //检测所有可能的灯条
     findLights();
-    showLights(Img,lights);
-    matchArmors();
-    showArmors(Img,armors);
+//    showLights(Img,lights);
+
+
+    if(state==LIGHTS_FOUND)
+    {
+        //对图像进行处理:将图像二值化，将数字凸显出来
+        classifier.LoadImage(Img);
+//        imshow("warpPerspective_src",classifier.warpPerspective_src); //二值图
+
+        //装甲板匹配
+        matchArmors();
+//        showArmors(Img,armors);
+
+
+        if(state==ARMOR_FOUND)
+        {
+            //找到最佳打击装甲板
+            setTargetArmor();
+        }
+        else if(state==ARMOR_NOT_FOUND)
+        {
+            targetArmor=ArmorBox();
+        }
+
+
+    }
+
 }
+
+//载入SVM模型,调用SVM类中的loadSvmModel函数
+void ArmorDetect::loadSVM()
+{
+    classifier.loadSvmModel("../123svm.xml",Size(40,40));
+}
+
+
 
 
 
